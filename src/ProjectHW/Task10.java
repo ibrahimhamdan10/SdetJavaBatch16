@@ -12,3 +12,9 @@ public class Task10 {
         }
     }
 }
+/*if we put int j=0 we gonna compare each element with it self and
+ the answer always gonna be equal so we are not gonna get the real Duplicate strings
+By using int j = i + 1, we start comparing each element with the
+ element after it, excluding itself. This ensures that each pair of
+ elements is only compared once, and we only find the
+ duplicates in the array.*/
