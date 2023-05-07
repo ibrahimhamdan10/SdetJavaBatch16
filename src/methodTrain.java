@@ -5,10 +5,12 @@ public class methodTrain {
         methodTrain obj3 = new methodTrain();
         System.out.println(count++);
         System.out.println(count++);
-        System.out.println(count++);
+        System.out.println(count);
+        System.out.println(count);
+
     }
     int no;
-    static int count=1;
+    static int count=0;
     String name;
     static  String college="IT";
 }
