@@ -1,22 +1,24 @@
 package HwClass19;
 
-public class task3 {
+public class staticMethod {
     String name;
     int age;
     boolean handSome;
     static void method(String name,int age,boolean handSome){
+        System.out.println(name+" "+age+" "+handSome);
     }
     static void method(boolean handSome,int age,String name){
+        System.out.println(handSome+" "+age+" "+name);
      }
      static void method(int age,String name,boolean handSome){
+         System.out.println(age+" "+name+" "+handSome);
      }
 
     public static void main(String[] args) {
-        task3 obj1= new task3();
+        staticMethod obj1= new staticMethod();
         method("ibrahim",20,true);
         method(false,100,"idk");
         method(49,"ghada",true);
-
 
     }
 }

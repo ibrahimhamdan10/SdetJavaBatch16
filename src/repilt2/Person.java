@@ -1,23 +1,27 @@
 package repilt2;
 
 import calss16.person;
-
 public class Person{
     String name;
     String lastName;
     int age;
 }
-class Employee extends person{
+class Employee extends Person{
     int salary;
     void method1(){
         System.out.println(name+" "+lastName+" "+age+" "+salary);
     }
 }
-class Student extends person {
+class Student extends Person{
     int grade;
-  System.out.println(name+" "+lastName+" "+age+" "+grade);
+    void method2(){
+        System.out.println(name+" "+lastName+" "+age+" "+grade);
+    }
 }
-class Retiree extends person{
+class Retiree extends Person{
     String seniorActivity;
-  System.out.println(name+" "+lastName+" "+age+" "+seniorActivity);
+    void method3(){
+        System.out.println(name+" "+lastName+" "+age+" "+seniorActivity);
+    }
 }
+

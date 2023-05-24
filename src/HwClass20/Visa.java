@@ -1,2 +1,5 @@
-package HwClass20;public class Visa {
+package HwClass20;
+
+public class Visa extends CreditCard{
+
 }

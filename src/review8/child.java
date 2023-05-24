@@ -1,2 +1,6 @@
-package review8;public class child {
+package review8;
+
+public class child extends parent{
+
+     String childName;
 }

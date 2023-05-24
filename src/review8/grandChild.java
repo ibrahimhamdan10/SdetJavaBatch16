@@ -1,2 +1,4 @@
-package review8;public class grandChild {
+package review8;
+
+public class grandChild extends child {
 }

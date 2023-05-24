@@ -1,6 +1,6 @@
 package HwClass19;
 
-public class calculateArea {
+public class calculateShape {
 
     double width;
     double length;
@@ -9,7 +9,12 @@ public class calculateArea {
             this.length=length;
             return length * width;
     }
+    double side;
+    double calculateArea(double side){
+        this.side=side;
+        return side*side;
+    }
 
-    
+
 
 }

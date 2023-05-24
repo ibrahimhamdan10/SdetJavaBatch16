@@ -1,46 +1,36 @@
 package repilt2;
 
-public class Main {
-    String label;
+public class StoreProduct{
+    String lable;
     double price;
     String category;
     boolean hasExpiration;
     int stock;
-
-    public Main(String label, double price, String category, boolean hasExpiration, int stock) {
-        this.label = label;
-        this.price = price;
-        this.category = category;
-        this.hasExpiration = hasExpiration;
-        this.stock = stock;
+    StoreProduct(String lable, double price, String category, boolean hasExpiration, int stock){
+        this.lable=lable;
+        this.price=price;
+        this.category=category;
+        this.hasExpiration=hasExpiration;
+        this.stock=stock;
     }
-    public Main(String label, double price, int stock) {
-        this.label = label;
-        this.price = price;
-        this.category = "misc";
-        this.hasExpiration = false;
-        this.stock = stock;
+    StoreProduct(String lable, double price, int stock){
+        this.lable=lable;
+        this.price=price;
+        this.stock=stock;
+        this.category="misc";
+        this.hasExpiration=false;
     }
-    public Main(String label, double price) {
-        this.label = label;
-        this.price = price;
-        this.category = category;
-        this.hasExpiration = hasExpiration;
-        this.stock = 0;
+    StoreProduct(String lable, double price){
+        this.lable=lable;
+        this.price=price;
+        this.stock=0;
     }
-
-    void display(){
-        System.out.println(label+" "+price+" "+category+" "+hasExpiration+" "+stock);
-    }
-
-    public static void main(String[] args) {
-        StoreProduct obj = new StoreProduct("Egss",3.0,"Produce",true,10);
-        obj.display();
-        StoreProduct obj2 = new StoreProduct("Paper Towels",2.0,false,24);
-        obj2.display();
-        StoreProduct obj3 = new StoreProduct("Paper Towels",3.0,"Produce",false);
-        obj3.display();
-
+    public void display(){
+        System.out.print(lable +" "+ price +" "+ category +" "+ hasExpiration +" "+ stock);
     }
 
 }
+/*Eggs 3.0 Produce true 10
+Paper Towels 2.0 misc false 24
+Paper Towels 2.0 null false 0
+```*/

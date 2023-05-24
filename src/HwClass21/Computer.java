@@ -1,4 +1,4 @@
-package HwClass22;
+package HwClass21;
 
 public abstract class Computer {
 

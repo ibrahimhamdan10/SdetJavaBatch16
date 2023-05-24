@@ -4,24 +4,7 @@ class Main{
 
     public static void main(String[] args) {
 
-        Main b = new Main();
-        b.breed = "Bulldog";
 
-        Main l = new Main();
-        l.breed = "Labrador";
-
-        Main h = new Main();
-        h.breed = "Husky";
-
-        h.bark();
-        h.run();
-        h.play();
-        b.bark();
-        b.run();
-        b.play();
-        l.bark();
-        l.run();
-        l.play();
     }
     String breed, name, color;
 

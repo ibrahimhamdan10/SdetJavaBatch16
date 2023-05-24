@@ -1,6 +1,4 @@
-package HwClass22;
-
-import class22.A;
+package HwClass21;
 
 public class Apple extends Computer{
     Apple(String color,int screenSize,double weight){

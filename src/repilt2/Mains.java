@@ -1,6 +1,6 @@
 package repilt2;
 
-public class Main {
+public class Mains {
     public static void main(String [] args){
 
 
