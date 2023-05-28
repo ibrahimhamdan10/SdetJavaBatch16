@@ -1,6 +1,6 @@
 package repilt174;
 
-public class Main implements MyInterface {
+public class s implements MyInterface {
 
     @Override
     public  void method1() {
@@ -13,7 +13,7 @@ public class Main implements MyInterface {
     }
 
     public static void main(String[] args) {
-        Main obj = new Main();
+        s obj = new s();
         obj.method1();
         obj.method2();
     }
