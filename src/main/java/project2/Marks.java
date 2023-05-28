@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-package project;public class task7 {
-}
-
-package project;
+package project2;
 
 public abstract class Marks {
     abstract double getPercentage();

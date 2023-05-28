@@ -1,8 +1,5 @@
 
-package project;public interface task6 {
-}
-
-package project;
+package project2;
 
 public interface shape {
 

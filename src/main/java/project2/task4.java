@@ -1,6 +1,4 @@
-package project;
-
-import HwClass20.Visa;
+package project2;
 
 import java.util.Arrays;
 

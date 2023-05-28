@@ -1,5 +1,5 @@
 
-package project;
+package project2;
 public class RemoteDriverTester {
 
 

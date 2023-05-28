@@ -1,9 +1,8 @@
 
-package project;
+package project2;
 
 
-
-public class Square implements shape{
+public class Square implements shape {
     @Override
     public void calculateArea(double radius) {
         System.out.println("Area of a square is "+radius*radius);

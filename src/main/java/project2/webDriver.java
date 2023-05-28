@@ -1,7 +1,5 @@
 
-package project;
-public interface webDriver {
-}
+package project2;
 
 public interface webDriver {
     void open();

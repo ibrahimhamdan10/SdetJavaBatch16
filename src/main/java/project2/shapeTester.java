@@ -1,5 +1,6 @@
 
-package project;
+package project2;
+
 public class shapeTester {
 
     public static void main(String[] args) {

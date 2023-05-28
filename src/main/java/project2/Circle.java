@@ -1,7 +1,5 @@
-import project.shape;<<<<<<< HEAD
-package project;public class Circle {
-=======
-package project;
+package project2;
+
 
 public class Circle implements shape {
 
@@ -14,7 +12,8 @@ public class Circle implements shape {
 
     @Override
     public void calculatePerimiter(double p) {
+
         System.out.println("Perimiter of a circle is "+2*p*Math.PI);
     }
->>>>>>> cbbcc96 (project 2)
+
 }
