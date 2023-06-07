@@ -8,15 +8,15 @@ public class javaFile extends father {
 
     @Override
     void open(){
-        System.out.println("open java file");
+        System.out.println("open java file.txt");
     }
     @Override
 
     void close(){
-        System.out.println("close java file");
+        System.out.println("close java file.txt");
     }
     @Override
     void edit(){
-        System.out.println("edit java file");
+        System.out.println("edit java file.txt");
     }
 }

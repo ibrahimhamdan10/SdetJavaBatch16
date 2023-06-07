@@ -1,6 +1,6 @@
 package HwClass28;
 
-public class task {
+public class task1 {
     public static void main(String[] args) {
 
         eligibility(17);

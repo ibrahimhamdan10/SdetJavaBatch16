@@ -1,18 +1,29 @@
 package class25;
 
-import java.util.Collection;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 
 public class e9Maps {
     public static void main(String[] args) {
-        TreeMap<String,Double>makekos=new TreeMap<>();
-        makekos.put("fff",5.6);
-        makekos.put("gyt",7.8);
 
-        Set<String>s =makekos.keySet();
-        System.out.println(s);
-        Collection<Double>d =makekos.values();
-        System.out.println(d);
+        Map<String,Integer>numbers=new HashMap<>();
+        numbers.put("ibrahim",2);
+        numbers.put("ibrahim",1);
+        numbers.put("ibrahim",0);
+
+        for(var s :numbers.entrySet()){
+            System.out.println(s);
+        }
+//
+//        var keyAndValue=numbers.entrySet();
+//        System.out.println(keyAndValue);
+//
+//        var key=numbers.keySet();
+//        System.out.println(key);
+//
+//        var value =numbers.values();
+//        System.out.println(value);
+
+
+
     }
 }

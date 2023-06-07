@@ -1,17 +1,22 @@
 package review11;
 
-import java.util.List;
-import java.util.Set;
+import java.util.ArrayList;
 
-public class ArrayList {
+public class ArrayList2 {
     public static void main(String[] args) {
 
-        List <String> list = new java.util.ArrayList<>();
-        list.add("");
-        list.add("");
-        list.add("");
-        list.add("");
+        ArrayList<String> list = new ArrayList<>();
+        list.add("ibrahim");
+        list.add("khaled");
+        list.add("mohammed");
+        list.add("HAMDAN");
 
 
+        for (int i = 0 ; i<list.size();i++){
+            String name=list.get(i);
+            if(name.contains("a")) {
+                System.out.println(list.get(i));
+            }
+        }
     }
 }

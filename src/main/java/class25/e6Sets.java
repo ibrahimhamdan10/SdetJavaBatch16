@@ -1,21 +1,17 @@
 package class25;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedList;
+import java.util.*;
 
 public class e6Sets {
     public static void main(String[] args) {
 
-        ArrayList<String>fruit= new ArrayList<>();
+        Set<String> fruit= new HashSet<>();
         fruit.add("mango");
         fruit.add("kiwi");
         fruit.add("mango");
 
-        HashSet<String>hashSet=new HashSet<>(fruit);
+        Set<String>hashSet=new TreeSet<>(fruit);
         System.out.println(hashSet);
 
-        LinkedList<String>linkedTest=new LinkedList<>(hashSet);
-        System.out.println(linkedTest);
     }
 }
