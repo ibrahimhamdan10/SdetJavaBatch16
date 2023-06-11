@@ -1,9 +1,8 @@
-<<<<<<< HEAD:src/main/java/project2/webDriver.java
+
 
 package project2;
-=======
-package project;
->>>>>>> cbbcc966ea66f2efb3f7fd9675ac8798c69d979f:src/project/webDriver.java
+
+
 
 public interface webDriver {
     void open();
@@ -94,6 +93,4 @@ in which you need to create Objects of ChromeDriver, FirefoxDrive and
 <<<<<<< HEAD:src/main/java/project2/webDriver.java
 SafariDriver classes and see which methods available to them.*/
 
-=======
-SafariDriver classes and see which methods available to them.*/
->>>>>>> cbbcc966ea66f2efb3f7fd9675ac8798c69d979f:src/project/webDriver.java
+

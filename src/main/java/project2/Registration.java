@@ -1,9 +1,7 @@
-<<<<<<< HEAD:src/main/java/project2/Registration.java
+
 package project2;
 
-=======
-package project;
->>>>>>> cbbcc966ea66f2efb3f7fd9675ac8798c69d979f:src/project/Registration.java
+
 
 public class Registration {
 private String email;
@@ -44,10 +42,7 @@ private String password;
         else
             System.out.println("Invalid password");
     }
-<<<<<<< HEAD:src/main/java/project2/Registration.java
 
-=======
->>>>>>> cbbcc966ea66f2efb3f7fd9675ac8798c69d979f:src/project/Registration.java
 }
 /*Create Registration Class in which you would have variables as
 email, userName and password that have an access scope only
