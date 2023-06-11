@@ -1,4 +1,8 @@
+<<<<<<< HEAD:src/main/java/project2/Car.java
 package project2;
+=======
+package project;
+>>>>>>> cbbcc966ea66f2efb3f7fd9675ac8798c69d979f:src/project/Car.java
 
 public class Car {
     private double carPrice;
